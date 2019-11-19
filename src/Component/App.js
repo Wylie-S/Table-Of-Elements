@@ -1,14 +1,25 @@
-import React from "react";
+import React, { Component } from "react";
+import { Box } from "../Component/Table.jsx";
 import "../css/App.css";
-
-function Table() {
-  return (
-    <div className="container">
-      <div className="element element-1">
-        <p></p>
-      </div>
-    </div>
-  );
+// import classnames from "classnames";
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <div className="container">
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+          <div class="grid-item">{<Box />}</div>
+        </div>
+      </React.Fragment>
+    );
+  }
 }
 
-export default Table;
+export default App;
