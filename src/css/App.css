@@ -1,51 +1,75 @@
-.container {
-  background-color:blanchedalmond;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  padding: 10px;
-  
-}
+body {
+  height:100vh;
+  width:100vw;
+  }
 
-.container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
-  padding: 20px 0;
-  text-align: center;
   
-}
-.Element{
+  /* .All {
+    background-color: #2196F3;
+    display: grid;
+    grid-gap: 1px;
+    
+    padding: 10px;
+    word-wrap:break-word;
+  } */
+  
+  .All > div {
+   
+    padding: 20px 0;
+    
+    text-align: center;
+  }
+
+.Element:nth-child(1n) {
+  background-color: rgb(156, 200, 238);
+ }
+ .Element:nth-child(2n) {
+   background-color: #E6C2CF;
+  }
+  .Element:nth-child(3n) {
+   background-color: #b9a1ff;
+  }
+  .Element:nth-child(4n) {
+   background-color: #B9A7D6;
+  }
+  .Element:nth-child(5n) {
+   background-color: #BE95C4;
+  }
+  .Element:nth-child(6n) {
+   background-color: #E0B1CB;
+  }
+  .Element:nth-child(7n) {
+   background-color: rgb(238, 0, 219);
+  }
+  .Element:nth-child(8n) {
+   background-color: #B9A7D1;
+  }
+  .Element:nth-child(9n) {
+   background-color:rgb(238, 163, 189);
+  }
+  
+.Table  {
   align-items: center;
-  align-self: center;
-  background-color: black;
-  border: 5px solid gray;
-  color: #fff;
-  contain: content;
-  height: max-content;
-  padding: 20px;
-  text-align: center;
-
-
-}
-.Element__atomicMass,.Element__symbol,.Element__number,.Element__name{
-  font-size: 29px;
-  text-align: center;
-}
-
-.grid-container > div {
-  align-self: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 30px;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.item1 {
-  grid-column-end: 3;
-  grid-row-start: 1;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
   
 }
-.item6 {
-  grid-column-end: 3;
-  grid-column-start: 2;
+.Element {
+  border: 1px solid #333333;
+  border-collapse: collapse;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 2px;
+}
+.Element__name{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Element__number{
+  color: white;
+ 
+  text-align: center;
 }
