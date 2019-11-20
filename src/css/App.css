@@ -3,7 +3,30 @@ body {
   width:100vw;
   }
 
+  @media (max-width:800px){
+    
+      .Table {
+       
+        align-content: center !important;
+        /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
+        display: inline-block !important;
+    }
+  .Element{
+    align-content: center !important;
+    background-color: black;
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    cursor: pointer;
+    /* display: inline-flex !important; */
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+  }
+
   
+  }
+
   /* .All {
     background-color: #2196F3;
     display: grid;
