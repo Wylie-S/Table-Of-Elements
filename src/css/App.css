@@ -27,14 +27,7 @@ body {
   
   }
 
-  /* .All {
-    background-color: #2196F3;
-    display: grid;
-    grid-gap: 1px;
-    
-    padding: 10px;
-    word-wrap:break-word;
-  } */
+  
   
   .All > div {
    
@@ -44,31 +37,31 @@ body {
   }
 
 .Element:nth-child(1n) {
-  background-color: rgb(156, 200, 238);
+  background-color: rgb(66, 97, 125);
  }
  .Element:nth-child(2n) {
-   background-color: #E6C2CF;
+  background-color:rgb(44, 92, 87);
   }
   .Element:nth-child(3n) {
-   background-color: #b9a1ff;
+    background-color: rgb(101, 101, 103);
   }
   .Element:nth-child(4n) {
-   background-color: #B9A7D6;
+    background-color:rgb(53, 89, 85);
   }
   .Element:nth-child(5n) {
-   background-color: #BE95C4;
+    background-color: rgb(101, 101, 103);
   }
   .Element:nth-child(6n) {
-   background-color: #E0B1CB;
+   background-color: rgb(157, 153, 155);
   }
   .Element:nth-child(7n) {
-   background-color: rgb(238, 0, 219);
+   background-color: rgb(0, 238, 218);
   }
   .Element:nth-child(8n) {
-   background-color: #B9A7D1;
+   background-color: rgb(101, 101, 103);
   }
   .Element:nth-child(9n) {
-   background-color:rgb(238, 163, 189);
+   background-color:rgb(18, 46, 44);
   }
   
 .Table  {
